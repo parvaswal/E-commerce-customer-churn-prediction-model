@@ -12,3 +12,12 @@ LEFT JOIN customer_frequency f USING(customer_id)
 LEFT JOIN customer_monetary m USING(customer_id)
 LEFT JOIN customer_aov a USING(customer_id)
 LEFT JOIN churn_labels cl USING(customer_id);
+SELECT COUNT(*) FROM final_customer_features;
+SELECT churn, COUNT(*)
+FROM final_customer_features
+GROUP BY churn;
+SELECT * FROM final_customer_features;
+SELECT MAX(order_purchase_timestamp) FROM orders;
+SELECT churn, COUNT(*)
+FROM final_customer_features
+GROUP BY churn;
