@@ -1,0 +1,5 @@
+-- Data loading was performed using MySQL Workbench Table Data Import Wizard.
+-- Files imported:
+-- 1. olist_customers_dataset.csv
+-- 2. olist_orders_dataset.csv
+-- 3. olist_order_items_dataset.csv
